@@ -1,10 +1,7 @@
 # The Merge Order (The Code Pipeline)
 
 ### 1. Create the Workspace
-Open your terminal on the `main` branch and run the following command. This creates an isolated, safe sandbox for your new feature:
-```bash
-git checkout -b feat/contact-form
-```
+Each new issue is developed and treated as an independent fix. Each branch acts as the sandbox for development.
 
 ### 2. Write and Test Locally
 Write your code and test the feature on your local development server (e.g., at http://localhost:3000).
